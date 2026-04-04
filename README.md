@@ -18,9 +18,9 @@ Siga o passo a passo abaixo para executar o sistema na sua máquina local:
    ```bash
    git clone https://github.com/analaurapereira/Sistema-de-Diagnostico-Tumoral.git
    ```
-2. **Navegue até o Projeto:** Entre na pasta gerada pelo clone, onde o arquivo `main.py` está salvo (exemplo: `cd Extrator_de_cores`).
+2. **Navegue até o Projeto:** Entre na pasta gerada pelo clone, onde o arquivo `main.py` está salvo.
 3. **Crie um Ambiente Virtual (*Recomendado*):**
-   Isso isola as bibliotecas do projeto da sua máquina. No terminal, digite:
+   No terminal, digite:
    ```bash
    python3 -m venv venv
    ```
@@ -30,8 +30,8 @@ Siga o passo a passo abaixo para executar o sistema na sua máquina local:
    ```bash
    pip install opencv-python numpy kagglehub
    ```
-   *(Nota: As bibliotecas `os` e `random` já são embutidas de fábrica no Python e não precisam de instalação).*
-5. **Execute o Sistema!**
+
+5. **Execute o Sistema**
    Para rodar o programa, execute o comando:
    ```bash
    python main.py
@@ -53,7 +53,7 @@ Ao executar o arquivo principal (`main.py`), a seguinte sequência acontece:
 
 <br>
 
-## 🤖 Técnicas de IA e Visão Computacional Envolvidas
+## 🤖 Técnicas de Visão Computacional Envolvidas
 
 Para que o sistema consiga analisar a imagem de ressonância e encontrar uma anomalia, ele segue alguns passos para "limpar" e organizar o que ele está vendo. A abordagem utiliza passos visuais progressivos:
 
